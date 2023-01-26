@@ -1,0 +1,38 @@
+{
+  "name": "mobiledatalayer",
+  "version": "1.0.0",
+  "description": "Data Access layer maintain database oprations",
+  "main": "dist/App.js",
+  "types": "dist/App.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SupremeSystem",
+    "Data Access",
+    "Layer"
+  ],
+  "author": "Infoleaf",
+  "license": "MIT",
+  "dependencies": {
+    "babel-jest": "^27.4.6",
+    "datamodels": "1.0.0",
+    "react-native-sqlite-storage": "6.0.1",
+    "sqlite3": "^5.0.2",
+    "utility": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.4.0",
+    "@types/react-native-sqlite-storage": "^5.0.1",
+    "jest": "^27.4.7",
+    "supertest": "^6.2.1",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.0.0",
+    "typescript": "3.8.3"
+  }
+}

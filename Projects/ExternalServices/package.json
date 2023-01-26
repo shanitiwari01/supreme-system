@@ -1,0 +1,29 @@
+{
+  "name": "externalservices",
+  "version": "1.0.0",
+  "description": "External services maintain mainly third-party apis and microservices",
+  "main": "dist/App.js",
+  "types": "dist/App.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "External",
+    "Services"
+  ],
+  "author": "Infoleaf",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1064.0",
+    "request": "2.81.0",
+    "utility": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.8",
+    "source-map-support": "^0.5.16",
+    "tslint": "^6.0.0",
+    "typescript": "3.8.3"
+  }
+}

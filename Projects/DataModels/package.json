@@ -1,0 +1,26 @@
+{
+  "name": "datamodels",
+  "version": "1.0.0",
+  "description": "Data Transfer Objects layer maintain sturcture of API request and response",
+  "main": "dist/App.js",
+  "types": "dist/App.d.ts",
+  "scripts": {
+    "start": "tsc && node ./dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "SupremeSystem",
+    "Data Transfer Objects",
+    "Layer"
+  ],
+  "author": "Infoleaf",
+  "license": "MIT",
+  "dependencies": {
+    "utility":"1.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "3.8.3"
+  }
+}

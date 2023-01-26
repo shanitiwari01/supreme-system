@@ -1,0 +1,21 @@
+{
+  "name": "supremesystemprojects",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "Projects/DataModels",
+      "Projects/ExternalServices",
+      "Projects/SupremeSystemMobileClient",
+      "Projects/MobileBusinessLayer",
+      "Projects/MobileDataLayer",
+      "Projects/ServiceBusinessLayer",
+      "Projects/ServiceDataLayer",
+      "Projects/ServicesLayer",
+      "Projects/Utility"
+    ],
+    "nohoist": []
+  },
+  "dependencies": {
+    "react-native": "0.64.1"
+  }
+}

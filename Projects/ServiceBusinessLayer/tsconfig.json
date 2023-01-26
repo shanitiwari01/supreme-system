@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "baseUrl": ".",
+        "declaration": true,
+        "paths": {
+            "servicedatalayer": ["./node_modules/servicedatalayer/app"],
+            "externalservices": ["./node_modules/externalservices/app"],
+            "datamodels": ["./node_modules/datamodels/app"],
+            "utility": ["./node_modules/utility/app"],
+        },
+        "types": ["react", "jest"]
+    }
+}

@@ -1,0 +1,22 @@
+export class StudentModel {
+    StudentID?: string = "";
+    FirstName: string = "";
+    MiddleName: string = "";
+    LastName: string = "";
+    MothersName: string = "";
+    Age: number = 0;
+    PhoneNumber: number = 0;
+    Weight: number = 0;
+    Dob: string = "";
+    Gender: string = "";
+    AddressLine1: string = "";
+    AddressLine2: string = "";
+    State: string = "";
+    City: string = "";
+    Pincode: number = 0;
+    IsActive: boolean = true;
+    AddedOn: string = "";
+    ModifiedOn: string = "";
+    LastLoggedinDatetime: string = "";
+    IsSync: boolean = true
+}

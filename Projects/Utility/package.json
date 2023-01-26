@@ -1,0 +1,28 @@
+{
+  "name": "utility",
+  "version": "1.0.0",
+  "description": "Utility layer for all kind of constants and common functions",
+  "main": "dist/App.js",
+  "types": "dist/App.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SUPREMESYSTEM",
+    "Utility",
+    "Layer"
+  ],
+  "author": "Infoleaf",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/react-native-aws3": "^0.0.1",
+    "tslint": "^6.0.0",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "dayjs": "1.10.7"
+  }
+}

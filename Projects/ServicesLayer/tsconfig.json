@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "strict": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "servicebusinesslayer": ["./node_modules/servicebusinesslayer/app"],
+            "utility": ["./node_modules/utility/app"],
+        },
+        "types": ["react", "jest"]
+    }
+}

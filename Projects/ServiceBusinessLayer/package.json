@@ -1,0 +1,42 @@
+{
+  "name": "servicebusinesslayer",
+  "version": "1.0.0",
+  "description": "Business Logic layer maintain validations, Logics, and third-party apis",
+  "main": "dist/App.js",
+  "types": "dist/App.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SupremeSystem",
+    "Business-logic",
+    "Layer"
+  ],
+  "author": "Infoleaf",
+  "license": "MIT",
+  "dependencies": {
+    "@types/multer": "^1.4.7",
+    "bcryptjs": "^2.4.3",
+    "datamodels": "1.0.0",
+    "express": "4.17.1",
+    "express-winston": "4.0.5",
+    "externalservices": "1.0.0",
+    "http-status-codes": "2.1.4",
+    "multer": "^1.4.4",
+    "redis": "^4.0.3",
+    "request": "2.81.0",
+    "servicedatalayer": "1.0.0",
+    "utility": "1.0.0",
+    "winston": "3.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.2",
+    "@types/request": "^2.48.8",
+    "source-map-support": "^0.5.16",
+    "tslint": "^6.0.0",
+    "typescript": "3.8.3"
+  }
+}

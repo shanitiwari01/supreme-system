@@ -1,0 +1,43 @@
+{
+  "name": "mobilebusinesslayer",
+  "version": "1.0.0",
+  "description": "Business Logic layer maintain validations, Logics, and third-party apis",
+  "main": "dist/App.js",
+  "types": "dist/App.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/App.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
+  },
+  "keywords": [
+    "SupremeSystem",
+    "Business-logic",
+    "Layer"
+  ],
+  "author": "Infoleaf",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.24.0",
+    "babel-jest": "^27.4.6",
+    "datamodels": "1.0.0",
+    "mobiledatalayer": "1.0.0",
+    "react-native-device-info": "8.4.8",
+    "react-native-encrypted-storage": "4.0.2",
+    "utility": "1.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "supertest": "^6.2.1",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.0.0",
+    "typescript": "3.8.3"
+  }
+}
